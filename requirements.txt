@@ -1,5 +1,2 @@
 openai
 streamlit
-pandas
-io
-os
