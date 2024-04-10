@@ -7,7 +7,7 @@ import os
 
 # Function to process audio
 client = OpenAI()
-openai_config={"temperature":1,
+openai_config={"temperature":0.3,
                "max_tokens":256,
                "top_p":1,
                "frequency_penalty":0,
