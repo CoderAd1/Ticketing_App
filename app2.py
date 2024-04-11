@@ -121,9 +121,8 @@ def ticket_category_app():
 
             # Display Solution in a wider, colored block
             st.subheader("Identified Solution:")
-            st.markdown("""<style>.solutionBox { background-color: #ffffff; padding: 10px; border-radius: 10px; }</style>""", unsafe_allow_html=True)
-
-            st.markdown(f"<div class='solutionBox'><h3 style='color: #333;'></h3><p>{ans_eval['solution']}</p></div>", unsafe_allow_html=True)
+            st.markdown("""<style>.solutionBox { background-color: #ffffff; color: #333; padding: 10px; border-radius: 10px; }</style>""",unsafe_allow_html=True)
+            st.markdown(f"<div class='solutionBox'><h3></h3><p>{ans_eval['solution']}</p></div>", unsafe_allow_html=True)
 
     # Bulk Query Tab
 
